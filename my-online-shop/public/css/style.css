@@ -236,7 +236,7 @@ a:focus {
   color: #fefefe;
   background-color: #000000;
   background-color: #f89cab;
-  background-image: ("pinocchia.jpeg");
+  background-image: url("../images/pinocchia.jpeg");
   padding: 25px;
   border-radius: 0 0 15px 15px;
 }
@@ -258,7 +258,7 @@ a:focus {
 }
 
 .slider_section .img-box img {
-  width: 275px;
+  width: auto;
 }
 
 .slider_section .detail-box {

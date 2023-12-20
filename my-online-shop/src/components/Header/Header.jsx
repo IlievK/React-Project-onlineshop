@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Header(){
     return(
         <header className="header_section">
@@ -18,24 +20,20 @@ export default function Header(){
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav  ">
-              <li className="nav-item active">
-                <a className="nav-link" href="index.html">
+              <li className="nav-item ">
+              {/* <li className="nav-item active">÷ */}
+                <Link className="nav-link" to={"/"}>
                   Home <span className="sr-only">(current)</span>
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="shop.html">
+                <Link className="nav-link" to={"/shop"}>
                   Shop
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="why.html">
                   Why Us
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="testimonial.html">
-                  Testimonial
                 </a>
               </li>
               <li className="nav-item">
@@ -44,7 +42,7 @@ export default function Header(){
                 </a>
               </li>
             </ul>
-            <div className="user_option">
+            {/* <div className="user_option">
               <a href="">
                 <i className="fa fa-user" aria-hidden="true" />
                 <span>Login</span>
@@ -57,7 +55,7 @@ export default function Header(){
                   <i className="fa fa-search" aria-hidden="true" />
                 </button>
               </form>
-            </div>
+            </div> */}
           </div>
         </nav>
       </header>

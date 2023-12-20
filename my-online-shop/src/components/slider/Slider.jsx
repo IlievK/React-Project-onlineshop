@@ -15,7 +15,7 @@ export default function Slider (){
                       <div className="detail-box">
                         <h1>
                           Welcome To Our <br />
-                          Gift Shop
+                           Shop
                         </h1>
                         <p>
                           Sequi perspiciatis nulla reiciendis, rem, tenetur
@@ -69,7 +69,7 @@ export default function Slider (){
                       <div className="detail-box">
                         <h1>
                           Welcome To Our <br />
-                          Gift Shop
+                           Shop
                         </h1>
                         <p>
                           Sequi perspiciatis nulla reiciendis, rem, tenetur
@@ -90,7 +90,7 @@ export default function Slider (){
                 </div>
               </div>
             </div>
-            <div className="carousel_btn-box">
+            {/* <div className="carousel_btn-box">
               <a
                 className="carousel-control-prev"
                 href="#carouselExampleIndicators"
@@ -110,7 +110,7 @@ export default function Slider (){
                 <i className="fa fa-arrow-right" aria-hidden="true" />
                 <span className="sr-only">Next</span>
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
