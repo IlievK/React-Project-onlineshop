@@ -32,9 +32,9 @@ export default function Header(){
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="why.html">
+                <Link className="nav-link" to={"/why"}>
                   Why Us
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="contact.html">

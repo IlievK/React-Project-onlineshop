@@ -594,7 +594,8 @@ a:focus {
 }
 
 .contact_section {
-  position: relative;
+  padding-top: 90px;
+    padding-bottom: 90px;
 }
 
 .contact_section .container-bg {
